@@ -1,7 +1,5 @@
 #include <iostream>
 using namespace std;
-
-
 void intercept(int arr[],int sizeA,int brr[],int sizeB){
     for(int i=0;i<sizeA;i++){
         for(int j=0;j<sizeB;j++){

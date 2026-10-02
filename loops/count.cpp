@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
     int N;
-    if (!(cin >> N)) return 0;
+    if (!(cin >> N)) return 0;   //agr input successful nahi hai to end the program right here!!
     int Evencount=0;
     int Oddcount=0;
     int poscount=0;
@@ -27,4 +27,4 @@ int main() {
     cout<<Evencount<< endl;
     cout<<Oddcount<< endl;
     return 0;
-} 
+}

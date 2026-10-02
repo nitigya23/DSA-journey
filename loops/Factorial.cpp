@@ -2,10 +2,10 @@
 using namespace std;
 int main(){
     long long N;
-    cin >> N;
+    cin >>N;
     long long fact = 1;
-    for (long long i = 1; i <= N; i++){
+    for (long long i = 1;i <= N; i++){
         fact *= i;
     }
-    cout << fact;
+    cout<<fact;
 }

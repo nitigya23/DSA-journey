@@ -1,6 +1,12 @@
-﻿*.exe
+*.exe
 *.o
 *.obj
 *.out
 .vscode/
+.pytest_cache/
 tempCodeRunnerFile*
+
+# Non-DSA projects
+ford_car_predictor/
+labelguard-ai/
+portfolio/

@@ -3,7 +3,8 @@
 using namespace std;
 
 vector<int> selectionSort(int arr[],int n){
-    for(int i=1;i<n;i++){
+    for(int i=1;i<n;i++){  //since we consider 1st element as sorted in Insertion Sort
+        // and comapre next element with the first one always!
         int temp=arr[i];
         int j=i-1;
         for(;j>=0;j--){
@@ -27,7 +28,7 @@ int main(){
     int size= sizeof(arr)/sizeof(arr[0]);
     vector <int> sortedarr=selectionSort(arr,size);;
     for(int x:sortedarr){
-        cout<<x<<" ";
+        cout<<x<<", ";
     }
     return 0;
 }
